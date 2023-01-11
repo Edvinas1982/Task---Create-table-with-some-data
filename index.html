@@ -10,7 +10,43 @@
 </head>
 
 <body>
-
+    <div class="container">
+        <div class="col-8 offset-2">
+            <!-- <form> -->
+                <div class="mb-3">
+                  <label for="date" class="form-label">Date and time</label>
+                  <input type="text" class="form-control" id="date">
+                </div>
+                <div class="mb-3">
+                    <label for="plate" class="form-label">Car plate number</label>
+                    <input type="text" class="form-control" id="plate">
+                  </div>
+                  <div class="mb-3">
+                    <label for="distance" class="form-label">Distance</label>
+                    <input type="text" class="form-control" id="distance">
+                  </div>
+                  <div class="mb-3">
+                    <label for="time" class="form-label">Time</label>
+                    <input type="text" class="form-control" id="time">
+                  </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              <!-- </form> -->
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Date ant time</th>
+                    <th scope="col">Car plate number</th>
+                    <th scope="col">Distance (m)</th>
+                    <th scope="col">Time (s)</th>
+                    <th scope="col">Speed (km/h)</th>
+                  </tr>
+                </thead>
+                <tbody>
+        
+                </tbody>
+              </table>
+        </div>
+    </div>
     <script src="main.js"></script>
 </body>
 

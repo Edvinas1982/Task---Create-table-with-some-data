@@ -1,0 +1,20 @@
+body {
+  padding: 100px 50px 50px 50px;
+  text-align: center;
+}
+label {
+  font-weight: 700;
+  font-size: rem(20);
+}
+caption {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+table, th, td {
+  margin: auto;
+  border:1px solid black;
+  text-align: center;
+}
+th {
+  font-size: rem(20);
+}

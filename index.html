@@ -14,27 +14,27 @@
         <div class="col-8 offset-2">
             <!-- <form> -->
                 <div class="mb-3">
-                  <label for="date" class="form-label">Date and time</label>
-                  <input type="text" class="form-control" id="date">
+                  <label class="form-label">Date</label>
+                  <input type="date" class="form-control" id="date">
                 </div>
                 <div class="mb-3">
-                    <label for="plate" class="form-label">Car plate number</label>
+                    <label class="form-label">Car plate number</label>
                     <input type="text" class="form-control" id="plate">
                   </div>
                   <div class="mb-3">
-                    <label for="distance" class="form-label">Distance</label>
-                    <input type="text" class="form-control" id="distance">
+                    <label class="form-label">Distance (m)</label>
+                    <input type="number" class="form-control" id="distance">
                   </div>
                   <div class="mb-3">
-                    <label for="time" class="form-label">Time</label>
-                    <input type="text" class="form-control" id="time">
+                    <label class="form-label">Time (s)</label>
+                    <input type="number" class="form-control" id="time">
                   </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button id="button" type="submit" class="btn btn-primary">Submit</button>
               <!-- </form> -->
-              <table class="table">
+              <table class="table mt-5">
                 <thead>
                   <tr>
-                    <th scope="col">Date ant time</th>
+                    <th scope="col">Date</th>
                     <th scope="col">Car plate number</th>
                     <th scope="col">Distance (m)</th>
                     <th scope="col">Time (s)</th>
